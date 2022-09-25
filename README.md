@@ -8,7 +8,7 @@ This repository contains code and data for reproducing the experiments in [Towar
 Deep Grader and Deep Siamese Grader are models leveraging large pre-trained models (CodeBERT, UniXcoder) fine-tuned on the task of automatic program grading with Python and C++ programming languages.
 
 ## Data
-Python and C++ data are available in forms of Pandas DataFrames separating train, validation, and test sets for both question independent and question dependent settings.
+Python and C++ data are available in forms of Pandas DataFrames separating train, validation, and test sets for both question independent and question dependent settings. Furthermore, we provide programs with their assigned grades and unpaired programs used in Majority Vote Grading and Incremental Transductive Grading.
 
 ## Dependency
 * pip install torch
