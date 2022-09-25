@@ -1,1 +1,26 @@
-# Deep-Grader
+# Automatic Program Grading Models
+This repository contains code and data for reproducing the experiments in [Towards Deep Learning Models for Automatic Computer Programs Grading](https://www.google.com).
+* Deep Grader (CodeBERT)
+* Deep Grader (UniXcoder)
+* Deep Siamese Grader (CodeBERT)
+* Deep Siamese Grader (UniXcoder)
+
+Deep Grader and Deep Siamese Grader are models leveraging large pre-trained models (CodeBERT, UniXcoder) fine-tuned on the task of automatic program grading on Python and C++ programming languages.
+
+## Data
+Python and C++ data are available in forms of Pandas DataFrames separating train, validation, and test sets for both question independent and question dependent settings.
+
+## Dependency
+* pip install torch
+* pip install transformers
+
+## Fine-Tune
+We provide fine-tuning settings for automatic program grading.
+```
+# Training
+
+    
+# Evaluating
+
+
+```
