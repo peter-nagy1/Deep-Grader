@@ -17,7 +17,7 @@ Python and C++ data are available in forms of Pandas DataFrames separating train
 ## Fine-Tune
 We provide fine-tuning settings for automatic program grading.
 
-Example training of Deep Grader using UniXcoder as the encoder on Python data using the question independent setting:
+Example training of Deep Grader using UniXcoder as the encoder on Python data utilizing the question independent setting:
 ```
 python run.py \
     --model_name deep_grader \
