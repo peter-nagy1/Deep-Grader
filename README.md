@@ -1,5 +1,5 @@
 # Automatic Program Grading Models
-This repository contains code and data for reproducing the experiments in [Towards Deep Learning Models for Automatic Computer Programs Grading](LINK TO PAPER).
+This repository contains code and data for reproducing the experiments in [Towards Deep Learning Models for Automatic Computer Programs Grading](https://ieeexplore.ieee.org/document/10302571).
 * Deep Grader (CodeBERT)
 * Deep Grader (UniXcoder)
 * Deep Siamese Grader (CodeBERT)
